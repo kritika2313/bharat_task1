@@ -1,0 +1,43 @@
+*{
+    margin-left:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: rgb(147, 20, 182);
+}
+.skill_body{
+    color: white;
+}
+.skill_list,.tools,.other,.database{
+    text-align: center;
+    font-size: 14px;
+    list-style-type: url('sql.png');
+    
+}
+
+h3{
+    text-align: center;
+    text-decoration: dashed;
+    color: rgb(49, 173, 235);
+    font-size: 25px;
+    text-decoration: underline;
+}
+#intro{
+    text-align: justify;
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 18px;
+    
+}
+.skill_list img,.tools img,.database img,.other img{
+    height: 50px;
+    width: auto;
+    display:inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}

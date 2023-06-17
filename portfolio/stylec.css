@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(201, 14, 179);
+    margin-top: 10%;
+    text-align: center;
+
+}
+.box{
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    color: white;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 35%;
+}
+.box img{
+    width: auto;
+    height: 60px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.box ul{
+    list-style: none;
+}
+.box a{
+    color: white;
+    text-decoration: none;
+    
+}
